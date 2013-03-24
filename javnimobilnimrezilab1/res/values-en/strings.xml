@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="action_settings">Settings</string>
+   
+<string name="app_name">lab1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_android_localize">Lab1VMM</string>
+   
+    <string name="langselection">Select Language</string>
+    <string name="chooselang">Choose Language</string>
+<string name="naslov">Weather in Macedonia</string>
+      <string-array name="languages"> 
+          <item>Select language</item>     
+        <item>Macedonian</item>
+        <item>English</item>
+    </string-array>
+</resources>
