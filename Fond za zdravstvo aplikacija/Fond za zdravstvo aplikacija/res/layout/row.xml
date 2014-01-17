@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelay"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="30dip"
+        android:layout_height="30dip"
+        android:layout_marginLeft="1dip"
+        android:layout_marginTop="17dip"
+        android:src="@drawable/funu" />
+
+    <TextView
+        android:id="@+id/nazivnalekot"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="30dip"
+        android:maxLines="1"
+        android:paddingBottom="20dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="20dip"
+        android:textColor="#000000"
+        android:textSize="17sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/idlek"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="hidden value"
+        android:visibility="gone" >
+    </TextView>
+
+    <View
+        android:id="@+id/sp1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/nazivnalekot"
+        android:background="#FF0000" />
+
+</RelativeLayout>
