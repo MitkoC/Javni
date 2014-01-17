@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+<TextView android:id="@+id/Headerslicni"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+         android:layout_below="@+id/cena"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+       
+        android:text="Слични лекови според активните субстанци"
+        android:background="#336699" />
+</LinearLayout>
